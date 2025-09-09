@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Shopping Cart</h1>
+
+  <div class="container">
+    <!-- Shop Section -->
+    <div class="shop">
+      <div class="product">
+        <img src="images/headphones.png" alt="Headphones">
+        <h5>Wireless Headphones</h5>
+        <p>$99.99</p>
+        <button onclick="AddtoCart(event)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Images/images-removebg-preview.png" alt="Smart Watch">
+        <h5>Smart Watch</h5>
+        <p>$299.99</p>
+        <button onclick="AddtoCart(event)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="images/speaker.png" alt="Speaker">
+        <h5>Bluetooth Speaker</h5>
+        <p>$149.99</p>
+        <button onclick="AddtoCart(event)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Images/audionic-the-sound-master-black-airbud-425-tws-earbuds-35775641485468-removebg-preview.png" alt="E-Reader">
+        <h5>Airbuds</h5>
+        <p>$179.99</p>
+        <button onclick="AddtoCart(event)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="images/mouse.png" alt="Mouse">
+        <h5>Wireless Mouse</h5>
+        <p>$49.99</p>
+        <button onclick="AddtoCart(event)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Images/powerbank-removebg-preview.png" alt="Power Bank">
+        <h5>Portable Charger</h5>
+        <p>$29.99</p>
+        <button onclick="AddtoCart(event)">Add to Cart</button>
+      </div>
+    </div>
+
+    <!-- Cart Section -->
+    <div class="cart">
+      <h3>Shopping Cart</h3>
+      <ul id="cart-items"></ul>
+      <p class="total">Total: $0.00</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
